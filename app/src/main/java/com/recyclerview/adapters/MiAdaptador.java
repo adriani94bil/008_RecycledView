@@ -57,6 +57,10 @@ public class MiAdaptador extends RecyclerView.Adapter<MiAdaptador.MiViewHolder> 
             return listaPaises.size();
         }
     }
+    public void addPais(Pais pais){
+        this.listaPaises.add(pais);
+        notifyItemInserted(listaPaises.size());
+    }
 
     public class MiViewHolder extends RecyclerView.ViewHolder{
 
