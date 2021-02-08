@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new Pais("Italia",R.drawable.italy_flag_icon));
         list.add(new Pais("Japon",R.drawable.japan_flag_icon));
         list.add(new Pais("EEUU",R.drawable.jarvis_island_flag_icon));
+        list.add(new Pais("Andorra la bella",R.drawable.bandera_andorra_exterior));
 
         RecyclerView recyclerView=findViewById(R.id.listaRecyclerView);
 
